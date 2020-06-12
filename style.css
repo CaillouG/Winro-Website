@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.top{
+    background-color:rgb(22, 21, 32);
+    overflow: hidden;
+  }
+.top a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    transition: color .5s;
+}
+.top a:hover{
+    color: gray;
+}
+.top a.winro{
+    color:rgb(134, 169, 229);
+}
+.top a.winro:hover{
+    color:rgb(99, 130, 185);
+}
+.top a.discord{
+    float: right;
+    transition: transform .7s;
+}
+.top a.discord:hover{
+    transform: rotate(1turn);  
+} 
+.join{
+    text-align: center;
+    transition: ease-in-out 0.3s;
+    transform: scale(0.6);
+}
+.join:hover{
+    transform: scale(0.7);
+}
+.ancres{
+    padding-right: 87px;
+}
+.ancres li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.ancres a{
+    color:rgb(134, 169, 229);
+    text-decoration: none;
+    transition: color .5s;
+}
+.ancres a:hover{
+    color: gray;
+}
+.center{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 18px;
+}
+.disclaimer{
+    color : rgb(182, 50, 50);
+    text-align: center;
+}
+body{
+    background-color:rgb(22, 21, 32);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f2f2f2;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    padding-right: 30px;
+}
+li{
+    font-size: 20px;
+    line-height: 29px;
+}
+span{
+    color:rgb(134, 169, 229); 
+}
